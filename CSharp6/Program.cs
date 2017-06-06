@@ -10,6 +10,8 @@ namespace CSharp6
     {
         static void Main(string[] args)
         {
+            string myName = "Uma Mahesh";
+            Console.WriteLine($"My name is {myName}");
         }
     }
 }
