@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CSharp6
 {
@@ -10,8 +6,17 @@ namespace CSharp6
     {
         static void Main(string[] args)
         {
-            string myName = "Uma Maheshf";
-            Console.WriteLine($"My name is {myName}");
+            Stringinterpolation();
+        }
+        public static void Stringinterpolation()
+        {
+            string firstName, lastName;
+            Console.Write("Please enter first name :=");
+            firstName = Console.ReadLine();
+
+            Console.Write("Please enter last name :=");
+            lastName = Console.ReadLine();
+            Console.WriteLine($"My fist name is {firstName}\nMy last name {lastName}");
         }
     }
 }
