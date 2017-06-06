@@ -10,7 +10,7 @@ namespace CSharp6
     {
         static void Main(string[] args)
         {
-            string myName = "Uma Mahesh K!";
+            string myName = "Uma Mahesh Ko!";
             Console.WriteLine($"My name is {myName}");
         }
     }
